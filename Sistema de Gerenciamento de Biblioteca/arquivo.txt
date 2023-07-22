@@ -1,0 +1,26 @@
+- Projeto: Sistema de Gerenciamento de Biblioteca
+- Descrição:
+Neste projeto, você será responsável por criar um sistema de gerenciamento de biblioteca utilizando conceitos de Programação Orientada a Objetos (POO) em PHP. O sistema deve permitir o cadastro, pesquisa, atualização e exclusão de livros, além de possibilitar o registro de empréstimos e devoluções.
+- Requisitos Funcionais:
+- Cadastro de Livros:
+- O sistema deve permitir o cadastro de novos livros, solicitando as seguintes informações: título, autor, editora, ISBN (International Standard Book Number), e quantidade de exemplares disponíveis.
+Os livros cadastrados devem ser armazenados em uma base de dados.
+Pesquisa de Livros:
+- Deve haver uma funcionalidade para pesquisar livros por título, autor ou ISBN.
+Os resultados da pesquisa devem ser exibidos de forma organizada.
+Atualização de Livros:
+- O sistema deve possibilitar a atualização dos dados de um livro já cadastrado, incluindo informações como título, autor, editora, ISBN e quantidade de exemplares disponíveis.
+Exclusão de Livros:
+- Deve ser possível excluir um livro cadastrado no sistema.
+Registro de Empréstimos:
+- O sistema deve permitir o registro de empréstimos de livros, solicitando as informações do usuário que está realizando o empréstimo (nome, e-mail ou CPF) e a data de devolução.
+A quantidade de exemplares disponíveis do livro emprestado deve ser atualizada após o registro do empréstimo.
+Registro de Devoluções:
+- O sistema deve possibilitar o registro de devoluções de livros emprestados, atualizando a quantidade de exemplares disponíveis do livro.
+Requisitos Técnicos:
+- O sistema deve ser implementado em PHP, utilizando conceitos de Programação Orientada a Objetos (POO).
+Para armazenar os dados dos livros e dos usuários, você pode usar uma abordagem simples, como armazenamento em arquivos ou arrays em memória. No entanto, uma solução mais robusta, como um banco de dados, pode ser considerada.
+Utilize classes e objetos para modelar os livros, usuários e empréstimos, encapsulando seus atributos e comportamentos relevantes.
+O código deve ser organizado, seguindo boas práticas de programação, e deve ser comentado adequadamente.
+Considere a validação dos dados de entrada para evitar problemas com informações inválidas ou maliciosas.
+O projeto pode ser estendido com outras funcionalidades e melhorias, mas os requisitos acima são a base para a implementação do sistema de gerenciamento de biblioteca. Certifique-se de testar o sistema com diferentes cenários para garantir seu bom funcionamento.

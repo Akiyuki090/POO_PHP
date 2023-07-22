@@ -1,0 +1,32 @@
+- Sistema de Gerenciamento de Funcionários
+- Descrição:
+O projeto teórico consiste em criar um Sistema de Gerenciamento de Funcionários em PHP utilizando conceitos de Programação Orientada a Objetos (POO). O sistema deve ser capaz de gerenciar informações básicas dos funcionários, como nome, cargo, salário e data de admissão.
+- Classes e Funcionalidades:
+- Classe "Funcionario":
+- Propriedades (Atributos):
+- Nome: nome completo do funcionário.
+Cargo: cargo ocupado pelo funcionário.
+Salário: valor do salário do funcionário.
+Data de admissão: data em que o funcionário foi contratado.
+Métodos:
+- getNome(): retorna o nome do funcionário.
+getCargo(): retorna o cargo do funcionário.
+getSalario(): retorna o salário do funcionário.
+getDataAdmissao(): retorna a data de admissão do funcionário.
+calcularSalarioAnual(): calcula e retorna o salário anual do funcionário (salário * 12).
+- Classe "Departamento":
+- Propriedades (Atributos):
+- Nome: nome do departamento.
+Funcionarios: um array que armazena os objetos de funcionários associados a este departamento.
+Métodos:
+- getNome(): retorna o nome do departamento.
+adicionarFuncionario(funcionario): adiciona um funcionário ao departamento.
+removerFuncionario(funcionario): remove um funcionário do departamento.
+- Classe "Empresa":
+- Propriedades (Atributos):
+- Nome: nome da empresa.
+Departamentos: um array que armazena os objetos de departamentos associados à empresa.
+Métodos:
+- getNome(): retorna o nome da empresa.
+adicionarDepartamento(departamento): adiciona um departamento à empresa.
+removerDepartamento(departamento): remove um departamento da empresa.

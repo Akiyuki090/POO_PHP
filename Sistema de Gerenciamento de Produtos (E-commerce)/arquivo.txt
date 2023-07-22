@@ -1,0 +1,16 @@
+- Projeto POO em PHP: Sistema de Gerenciamento de Produtos (E-commerce)
+- Crie um sistema de gerenciamento de produtos para um e-commerce usando PHP com Programação Orientada a Objetos (POO). O sistema deve ser capaz de realizar as seguintes operações:
+- Classe Product: Representa um produto com os seguintes atributos privados:
+- $id (integer): o ID único do produto.
+$name (string): o nome do produto.
+$price (float): o preço do produto.
+Classe ProductCatalog: Responsável por armazenar e gerenciar a lista de produtos. Ela deve conter os seguintes métodos:
+- addProduct($product): Adiciona um novo produto ao catálogo.
+getProductById($productId): Retorna o produto com o ID especificado.
+getAllProducts(): Retorna todos os produtos do catálogo.
+removeProduct($productId): Remove o produto com o ID especificado do catálogo.
+Classe Main: Essa classe será responsável por criar o catálogo de produtos e realizar operações básicas nele. O código de exemplo pode incluir:
+- Criar instâncias da classe Product e adicioná-las ao catálogo.
+Exibir informações sobre um produto específico.
+Exibir todos os produtos do catálogo.
+Remover um produto do catálogo.
